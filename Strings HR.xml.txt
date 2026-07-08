@@ -139,7 +139,7 @@
     <string name="collections_editor_tmdb_search_helper">Primjerice: Marvel Studios, 420 ili https://www.themoviedb.org/company/420.</string>
     <string name="collections_editor_tmdb_collection_helper">Primjer: Kolekcija Ratovi zvijezda, kolekcija Harry Potter ili URL kolekcije.</string>
     <string name="collections_editor_tmdb_network_helper">Primjeri ID-a: Netflix 213, HBO 49, Disney+ 2739.</string>
-    <string name="collections_editor_tmdb_list_helper">Primjer: https://www.themoviedb.org/list/8504994 alebo 8504994.</string>
+    <string name="collections_editor_tmdb_list_helper">Primjer: https://www.themoviedb.org/list/8504994 ili 8504994.</string>
     <string name="collections_editor_tmdb_person_helper">Primjer: https://www.themoviedb.org/person/31-tom-hanks ili 31.</string>
     <string name="collections_editor_tmdb_display_title">Prikazno ime</string>
     <string name="collections_editor_tmdb_title_helper">Prikazuje se kao naziv retka ili kartice. Ako se polje ostavi praznim, Nuvio ga generira iz izvora.</string>
@@ -151,7 +151,7 @@
     <string name="collections_editor_tmdb_collection">Kolekcija TMDB</string>
     <string name="collections_editor_tmdb_company_fallback">Tvrtka TMDB %1$d</string>
     <string name="collections_editor_tmdb_collection_fallback">Kolekcija TMDB %1$d</string>
-    <string name="collections_editor_tmdb_type">Typ</string>
+    <string name="collections_editor_tmdb_type">Vrsta</string>
     <string name="collections_editor_tmdb_movies">Filmovi</string>
     <string name="collections_editor_tmdb_series">Serije</string>
     <string name="collections_editor_tmdb_both">Oboje</string>
@@ -205,13 +205,13 @@
     <string name="collections_editor_add_trakt_source">Dodaj na Trakt listu</string>
     <string name="collections_editor_edit_trakt_source">Uredi Trakt listu</string>
     <string name="collections_editor_trakt_sources">Trakt liste</string>
-    <string name="collections_editor_trakt_list">Popis serija</string>
-    <string name="collections_editor_trakt_input_placeholder">Potražite naziv, Trakt URL ili ID popisa.</string>
+    <string name="collections_editor_trakt_list">Lista serija</string>
+    <string name="collections_editor_trakt_input_placeholder">Potražite naziv, Trakt URL ili ID liste.</string>
     <string name="collections_editor_trakt_input_helper">Upotrijebite URL javne Traktove liste ili brojčani ID liste, odnosno pretražite prema nazivu.</string>
     <string name="collections_editor_trakt_title_placeholder">Filmovi za vikend – nagrađivana ostvarenja</string>
     <string name="collections_editor_trakt_search_results">Rezultati pretraživanja</string>
-    <string name="collections_editor_trakt_trending">Popisi trendova</string>
-    <string name="collections_editor_trakt_popular">Popularni popisi</string>
+    <string name="collections_editor_trakt_trending">Liste trendova</string>
+    <string name="collections_editor_trakt_popular">Popularne liste</string>
     <string name="collections_editor_trakt_direction">Smjer</string>
     <string name="collections_editor_trakt_ascending">Uspinjanje</string>
     <string name="collections_editor_trakt_descending">Spuštanje</string>
@@ -227,8 +227,8 @@
     <string name="collections_editor_trakt_enter_id_or_url">Unesite ID ili URL Trakt liste</string>
     <string name="collections_editor_trakt_load_failed">Učitavanje Trakt liste nije uspjelo.</string>
     <string name="collections_editor_trakt_no_lists_found">Nisu pronađene Trakt liste.</string>
-    <string name="collections_editor_trakt_resolved_subtitle">Riješeni Trakt popis</string>
-    <string name="collections_editor_trakt_fallback_title">Trakt popis %1$d</string>
+    <string name="collections_editor_trakt_resolved_subtitle">Riješene Trakt liste</string>
+    <string name="collections_editor_trakt_fallback_title">Trakt lista %1$d</string>
     <string name="collections_editor_tmdb_genre_action">Akcija</string>
     <string name="collections_editor_tmdb_genre_adventure">Pustolovan</string>
     <string name="collections_editor_tmdb_genre_animation">Animirani</string>
@@ -239,7 +239,7 @@
     <string name="collections_editor_tmdb_genre_crime">Krimi</string>
     <string name="collections_editor_tmdb_genre_reality">Reality</string>
     <string name="collections_editor_tmdb_language_english">Engleski</string>
-    <string name="collections_editor_tmdb_language_korean">Kórejski</string>
+    <string name="collections_editor_tmdb_language_korean">Korejski</string>
     <string name="collections_editor_tmdb_language_japanese">Japanski</string>
     <string name="collections_editor_tmdb_language_hindi">Indijski</string>
     <string name="collections_editor_tmdb_language_spanish">Španjolski</string>
@@ -279,7 +279,7 @@
     <string name="collections_editor_tmdb_watch_provider_disney">Disney+</string>
     <string name="collections_editor_tmdb_watch_provider_apple">Apple TV+</string>
     <string name="collections_editor_tmdb_watch_provider_hulu">Hulu</string>
-    <string name="collections_editor_tmdb_subtitle_list">Zoznam TMDB</string>
+    <string name="collections_editor_tmdb_subtitle_list">TMDB lista</string>
     <string name="collections_editor_tmdb_subtitle_movie_collection">TMDB filmska kolekcija</string>
     <string name="collections_editor_tmdb_subtitle_production">Produkcija</string>
     <string name="collections_editor_tmdb_subtitle_network">Mreža</string>
@@ -464,7 +464,7 @@
     <string name="settings_licenses_attributions_imdb_title">Nekomercijalni IMDb skupovi podataka</string>
     <string name="settings_licenses_attributions_imdb_body">Nuvio koristi nekomercijalne skupove podataka s IMDb-a, uključujući title.ratings.tsv.gz, za ocjene i broj glasova s ​​IMDb-a. Podatke osigurava IMDb (https://www.imdb.com). Koriste se uz dopuštenje. Podaci s IMDb-a namijenjeni su za osobnu i nekomercijalnu upotrebu u skladu s uvjetima korištenja IMDb-a.</string>
     <string name="settings_licenses_attributions_trakt_title">Trakt</string>
-    <string name="settings_licenses_attributions_trakt_body">Nuvio se povezuje s uslugom Trakt radi autentifikacije računa, povijesti gledanja, sinkronizacije napretka, podataka o biblioteci, ocjena, popisa i komentara. Nuvio nije povezan s uslugom Trakt niti ona podržava tu aplikaciju.</string>
+    <string name="settings_licenses_attributions_trakt_body">Nuvio se povezuje s uslugom Trakt radi autentifikacije računa, povijesti gledanja, sinkronizacije napretka, podataka o knjižnici, ocjena, lista i komentara. Nuvio nije povezan s uslugom Trakt niti ona podržava tu aplikaciju.</string>
     <string name="settings_licenses_attributions_premiumize_title">Premiumize</string>
     <string name="settings_licenses_attributions_premiumize_body">Nuvio se povezuje s uslugom Premiumize radi autentifikacije računa, pristupa biblioteci u oblaku, provjere predmemorije i značajki reprodukcije iz oblaka. Nuvio nije povezan s uslugom Premiumize niti ona podržava tu aplikaciju.</string>
     <string name="settings_licenses_attributions_torbox_title">TorBox</string>
@@ -479,7 +479,7 @@
     <string name="settings_licenses_attributions_exoplayer_title">AndroidX Media3 ExoPlayer 1.8.0</string>
     <string name="settings_licenses_attributions_exoplayer_body">Koristi se za reprodukciju na Android sustavima.</string>
     <string name="settings_licenses_attributions_exoplayer_license">Licencirane pod Apache License, Version 2.0.</string>
-    <string name="compose_trakt_list_picker_loading">Učitavanje vaših Trakt popisa…</string>
+    <string name="compose_trakt_list_picker_loading">Učitavanje vaših Trakt lista…</string>
     <string name="compose_trakt_list_picker_subtitle">Odaberite gdje želite spremiti ovaj naslov na Traktu.</string>
     <string name="action_donate">Daruj nam</string>
     <string name="cw_action_go_to_details">Idi na detalje</string>
@@ -742,10 +742,10 @@
     <string name="settings_meta_episode_cards_description">Odaberite način prikaza epizoda na zaslonu s metapodacima.</string>
     <string name="settings_meta_episode_style_horizontal">Horizontalne</string>
     <string name="settings_meta_episode_style_horizontal_description">Kartice u retku sa stilom pozadine</string>
-    <string name="settings_meta_episode_style_list">Popis</string>
+    <string name="settings_meta_episode_style_list">Lista</string>
     <string name="settings_meta_episode_style_list_description">Detaljne složene kartice</string>
     <string name="settings_meta_episodes">Epizode</string>
-    <string name="settings_meta_episodes_description">Popisi serija i epizoda za TV serije.</string>
+    <string name="settings_meta_episodes_description">Lista serija i epizoda za TV serije.</string>
     <string name="settings_meta_blur_unwatched_episodes">Zamuti nepogledane epizode</string>
     <string name="settings_meta_blur_unwatched_episodes_description">Zamuti sličice epizoda dok ih ne pogledaš kako bi izbjegao spojlere..</string>
     <string name="settings_meta_group_label">Skupina %1$d</string>
@@ -1009,11 +1009,11 @@
     <string name="settings_trakt_failed_open_browser">Nije moguće otvoriti preglednik</string>
     <string name="settings_trakt_features">FUNKCIJE</string>
     <string name="settings_trakt_finish_sign_in">Dovršite prijavu na Trakt u svom pregledniku.</string>
-    <string name="settings_trakt_intro_description">Sinkronizirajte svoj popis za gledanje, napredak gledanja, nastavak gledanja, zapise o gledanju (scrobbles) i osobne liste s Traktom.</string>
+    <string name="settings_trakt_intro_description">Sinkronizirajte svoju listu za gledanje, napredak gledanja, nastavak gledanja, zapise o gledanju (scrobbles) i osobne liste s Traktom.</string>
     <string name="settings_trakt_missing_credentials">Nedostaju podaci za prijavu na Trakt u datoteci local.properties (TRAKT_CLIENT_ID / TRAKT_CLIENT_SECRET).</string>
     <string name="settings_trakt_open_login">Otvori Trakt prijavu</string>
     <string name="settings_trakt_save_actions_description">Radnje spremanja sada mogu biti usmjerene na vašu Trakt listu za gledanje i osobne liste.</string>
-    <string name="settings_trakt_sign_in_description">Prijavite se putem Trakta kako biste omogućili spremanje na popise i način rada Traktove knjižnice.</string>
+    <string name="settings_trakt_sign_in_description">Prijavite se putem Trakta kako biste omogućili spremanje na liste i način rada Traktove knjižnice.</string>
     <string name="trakt_library_source_title">Izvor iz knjižnice</string>
     <string name="trakt_library_source_subtitle">Odaberite koju ćete knjižnicu koristiti za pohranu i pregled svoje zbirke.</string>
     <string name="trakt_library_source_dialog_title">Izvor iz knjižnice</string>
@@ -1075,7 +1075,7 @@
     <string name="lang_azerbaijani">Azerbajdžanski</string>
     <string name="lang_basque">Baskičtina</string>
     <string name="lang_belarusian">Bieloruski</string>
-    <string name="lang_bengali">Bengálčina</string>
+    <string name="lang_bengali">Bengalski</string>
     <string name="lang_bosnian">Bosanski</string>
     <string name="lang_bulgarian">Bugarski</string>
     <string name="lang_burmese">Burmanski</string>
@@ -1092,7 +1092,7 @@
     <string name="lang_filipino">Filipinski</string>
     <string name="lang_finnish">Finski</string>
     <string name="lang_french">Francuski</string>
-    <string name="lang_galician">Galícijčina</string>
+    <string name="lang_galician">Galicijski</string>
     <string name="lang_georgian">Gruzijski</string>
     <string name="lang_german">Njemački</string>
     <string name="lang_greek">Grčki</string>
@@ -1184,8 +1184,8 @@
     <string name="discover_empty_no_active_addons_message">Instalirajte i provjerite barem jedan dodatak prije pregledavanja kataloga za otkrivanje.</string>
     <string name="discover_select_catalog">Odaberi katalog</string>
     <string name="discover_select_genre">Odaberi žanr</string>
-    <string name="discover_select_type">Odaberi typ</string>
-    <string name="discover_type">Typ</string>
+    <string name="discover_select_type">Odaberi Vrstu</string>
+    <string name="discover_type">Vrsta</string>
     <string name="episode_mark_previous_unwatched">Označi prethodno kao nepregledano</string>
     <string name="episode_mark_previous_watched">Označi prethodno kao pregledano</string>
     <string name="episode_mark_season_unwatched">Označi %1$s kao nepogledano</string>
@@ -1209,7 +1209,7 @@
     <string name="meta_section_comments_description">Sekcija Trakt komentara.</string>
     <string name="meta_section_details_description">Duljina, status, izdanje, jezik i povezane informacije.</string>
     <string name="meta_section_details_title">Detalji</string>
-    <string name="meta_section_episodes_description">Popisi serija i epizoda televizijskih serija.</string>
+    <string name="meta_section_episodes_description">Lista serija i epizoda televizijskih serija.</string>
     <string name="meta_section_more_like_this_description">Niz preporuka.</string>
     <string name="meta_section_more_like_this_title">Slični naslovi</string>
     <string name="meta_section_overview_description">Sinopsis, ocjene, žanrovi i ključni podaci o autorima i ekipi.</string>
@@ -1271,7 +1271,7 @@
     <string name="profile_set_pin_lock">Postavi PIN zaključavanje</string>
     <string name="profile_unnamed">Neimenovan profil</string>
     <string name="profile_use_primary_addons">Koristite osnovne dodatke prehrani.</string>
-    <string name="profile_use_primary_addons_description">Dijelite postavke dodataka glavnog profila umjesto upravljanja zasebnim popisom.</string>
+    <string name="profile_use_primary_addons_description">Dijelite postavke dodataka glavnog profila umjesto upravljanja zasebnim listama.</string>
     <string name="profile_who_is_watching">Tko Gleda?</string>
     <string name="provider_downloaded">Preuzeto</string>
     <string name="resume_prompt_action">Nastaviti</string>
@@ -1388,7 +1388,7 @@
     <string name="trakt_missing_auth_code">Trakt nije vratio autorizacijski kod.</string>
     <string name="trakt_missing_credentials">Nedostaju podaci za prijavu na Trakt</string>
     <string name="trakt_progress_load_failed">Učitavanje Trakt napretka nije uspjelo.</string>
-    <string name="trakt_public_list">Javni popis na Traktu</string>
+    <string name="trakt_public_list">Javna lista na Traktu</string>
     <string name="trakt_public_list_enter_valid_id_or_url">Unesite valjani ID ili URL Trakt liste.</string>
     <string name="trakt_public_list_items_count">%1$d stavki</string>
     <string name="trakt_public_list_likes_count">%1$d sviđanja</string>
@@ -1403,12 +1403,12 @@
     <string name="trakt_watchlist">Popis za praćenje</string>
     <!-- Trakt library sync errors -->
     <string name="trakt_error_authorization_expired">Trakt autorizacija je istekla.</string>
-    <string name="trakt_error_list_not_found">Popis Trakt nije pronađen</string>
-    <string name="trakt_error_list_limit_reached">Dosegnuto je ograničenje popisa na Traktu.</string>
+    <string name="trakt_error_list_not_found">Trakt lista nije pronađena</string>
+    <string name="trakt_error_list_limit_reached">Dosegnuto je ograničenje Trakt popisa.</string>
     <string name="trakt_error_rate_limit_reached">Dosegnuto ograničenje na Traktu</string>
     <string name="trakt_error_request_failed">Trakt zahtjev nije uspio.</string>
-    <string name="trakt_error_add_watchlist_failed">Dodavanje na Traktov popis za gledanje nije uspjelo.</string>
-    <string name="trakt_error_add_list_failed">Dodavanje Trakt popisa nije uspjelo.</string>
+    <string name="trakt_error_add_watchlist_failed">Dodavanje na Traktovu listu za gledanje nije uspjelo.</string>
+    <string name="trakt_error_add_list_failed">Dodavanje Trakt liste nije uspjelo.</string>
     <string name="trakt_error_missing_ids">Nedostaje kompatibilni Trakt ID</string>
     <string name="trakt_error_empty_response">Prazno tijelo odgovora</string>
     <string name="tmdb_sources_api_key_required">Dodajte TMDB API ključ u Postavkama kako biste koristili TMDB izvore.</string>
@@ -1511,7 +1511,7 @@
     <string name="library_source_cloud">Cloud</string>
     <string name="library_source_saved">Spremljene</string>
     <string name="library_title">Knjižnica</string>
-    <string name="library_trakt_empty_message">Poveži Trakt i spremi naslove na svoj popis za gledanje ili osobne popise.</string>
+    <string name="library_trakt_empty_message">Poveži Trakt i spremi naslove na svoje liste za gledanje ili osobne popise.</string>
     <string name="library_trakt_empty_title">Vaša Trakt knjižnica je prazna</string>
     <string name="library_trakt_load_failed">Učitavanje Trakt knjižnice nije uspjelo.</string>
     <string name="library_trakt_title">Trakt Knjižnica</string>
@@ -1878,7 +1878,7 @@
     <string name="cw_new_episode">Nova epizoda</string>
     <string name="cw_new_season">Nova serija</string>
     <!-- Pass 4 — platform stubs and dynamic title fallbacks -->
-    <string name="collections_editor_trakt_list_title_format">Trakt Zoznam %1$s</string>
+    <string name="collections_editor_trakt_list_title_format">Trakt lista %1$s</string>
     <string name="external_player_android_system">Reproduktor na sustavu Android</string>
     <string name="p2p_consent_title">P2P streaming</string>
     <string name="p2p_consent_body">Ovaj prijenos koristi tehnologiju izravne razmjene podataka između korisnika (P2P). Omogućavanjem P2P-a potvrđujete i prihvaćate sljedeće:
